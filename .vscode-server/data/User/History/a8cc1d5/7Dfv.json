@@ -1,0 +1,14 @@
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.195.128": "linux",
+        "192.168.195.129": "linux",
+        "192.168.195.130": "linux",
+        "192.168.195.131": "linux",
+        "192.168.195.132": "linux",
+        "192.168.195.133": "linux",
+        "192.168.195.134": "linux",
+        "192.168.195.137": "linux",
+        "192.168.195.139": "linux"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\sveta\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe"
+}

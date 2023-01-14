@@ -1,0 +1,112 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:35565 (IPv4)
+Extension host agent listening on 35565
+
+[22:34:21] Extension host agent started.
+[22:34:24] [127.0.0.1][682a75bf][ManagementConnection] New connection established.
+[22:34:24] [127.0.0.1][a9f2bd0c][ExtensionHostConnection] New connection established.
+[22:34:24] [127.0.0.1][a9f2bd0c][ExtensionHostConnection] <1598> Launched Extension Host Process.
+[22:34:27] No ptyHost heartbeat after 6 seconds
+[22:34:44] No ptyHost heartbeat after 6 seconds
+[22:34:59] No ptyHost heartbeat after 6 seconds
+[22:34:59] No ptyHost response to createProcess after 5 seconds
+[22:34:59] No ptyHost response to createProcess after 5 seconds
+[22:34:59] No ptyHost response to createProcess after 5 seconds
+[22:34:59] No ptyHost response to createProcess after 5 seconds
+[22:35:07] No ptyHost heartbeat after 6 seconds
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at a._throwIfNoPty (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:7252),    at a.updateTitle (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:2984),    at Object.call (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at c.onPromise (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5833),    at c.onRawMessage (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5216),    at /home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:4502,    at m.invoke (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at O.fire (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.X (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:9:20837),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[22:35:15] [Error [CodeExpectedError]: Could not find pty on pty host,    at a._throwIfNoPty (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:7252),    at a.updateTitle (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:2984),    at Object.call (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at c.onPromise (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5833),    at c.onRawMessage (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5216),    at /home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:4502,    at m.invoke (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at O.fire (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.X (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:9:20837),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at a._throwIfNoPty (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:7252),    at a.updateIcon (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:3046),    at Object.call (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at c.onPromise (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5833),    at c.onRawMessage (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5216),    at /home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:4502,    at m.invoke (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at O.fire (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.X (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:9:20837),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[22:35:15] [Error [CodeExpectedError]: Could not find pty on pty host,    at a._throwIfNoPty (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:7252),    at a.updateIcon (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:27:3046),    at Object.call (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at c.onPromise (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5833),    at c.onRawMessage (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:5216),    at /home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:15:4502,    at m.invoke (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at O.fire (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.X (/home/vadim2/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/platform/terminal/node/ptyHostMain.js:9:20837),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+[22:46:20] No ptyHost heartbeat after 6 seconds
+[22:47:16] No ptyHost heartbeat after 6 seconds
+[22:59:07] No ptyHost heartbeat after 6 seconds
+[22:59:17] No ptyHost heartbeat after 6 seconds
+[22:59:33] No ptyHost heartbeat after 6 seconds
+[23:02:06] No ptyHost heartbeat after 6 seconds
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/vadim2/kti-infrastructure/data'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/vadim2/kti-infrastructure/data'
+}
+[00:35:08] No ptyHost heartbeat after 6 seconds
+[00:44:29] No ptyHost heartbeat after 6 seconds
+[00:44:52] No ptyHost heartbeat after 6 seconds
+[00:46:40] No ptyHost heartbeat after 6 seconds
+[01:37:43] No ptyHost heartbeat after 6 seconds
+[01:38:25] No ptyHost heartbeat after 6 seconds
+[01:38:37] No ptyHost heartbeat after 6 seconds
+[01:38:55] No ptyHost heartbeat after 6 seconds
+[01:40:00] No ptyHost heartbeat after 6 seconds
+[01:40:09] No ptyHost heartbeat after 6 seconds
+[01:52:27] No ptyHost heartbeat after 6 seconds
+[02:25:11] No ptyHost heartbeat after 6 seconds

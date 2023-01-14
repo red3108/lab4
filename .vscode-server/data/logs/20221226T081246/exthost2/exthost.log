@@ -1,0 +1,18 @@
+2022-12-26 11:36:44.743 [info] Extension host with pid 6072 started
+2022-12-26 11:36:44.778 [error] Error: EEXIST: file already exists, open '/home/ChudakovDA/.vscode-server/data/User/workspaceStorage/32f6ad41183c5beef815be365d8df15a/vscode.lock'
+2022-12-26 11:36:44.813 [info] Lock '/home/ChudakovDA/.vscode-server/data/User/workspaceStorage/32f6ad41183c5beef815be365d8df15a/vscode.lock': Could not acquire lock, checking if the file is stale.
+2022-12-26 11:36:44.824 [info] Lock '/home/ChudakovDA/.vscode-server/data/User/workspaceStorage/32f6ad41183c5beef815be365d8df15a/vscode.lock': The lock does not look stale, elapsed: 314 ms, giving up.
+2022-12-26 11:36:44.834 [info] Lock '/home/ChudakovDA/.vscode-server/data/User/workspaceStorage/32f6ad41183c5beef815be365d8df15a-1/vscode.lock': Lock acquired.
+2022-12-26 11:36:44.980 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2022-12-26 11:36:44.984 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-26 11:36:46.550 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-26 11:36:46.551 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-26 11:36:47.289 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 11:36:47.292 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 11:36:47.294 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 11:36:47.295 [info] Eager extensions activated
+2022-12-26 11:36:48.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5772
+2022-12-26 11:36:50.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5772
+2022-12-26 11:37:44.855 [info] Extension host terminating: received terminate message from renderer
+2022-12-26 11:37:44.859 [info] Lock '/home/ChudakovDA/.vscode-server/data/User/workspaceStorage/32f6ad41183c5beef815be365d8df15a-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-26 11:37:44.989 [info] Extension host with pid 6072 exiting with code 0

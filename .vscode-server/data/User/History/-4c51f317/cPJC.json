@@ -1,0 +1,11 @@
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.116.132": "linux",
+        "192.168.116.133": "linux",
+        "192.168.116.134": "linux",
+        "192.168.116.135": "linux",
+        "192.168.116.136": "linux",
+        "192.168.116.138": "linux"
+    },
+    "explorer.confirmDragAndDrop": false
+}

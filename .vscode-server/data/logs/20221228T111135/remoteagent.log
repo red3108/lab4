@@ -1,0 +1,9 @@
+2022-12-28 11:11:36.557 [info] Extension host agent started.
+2022-12-28 11:11:37.379 [info] [127.0.0.1][6c4454f9][ManagementConnection] New connection established.
+2022-12-28 11:11:37.392 [info] [127.0.0.1][72765c29][ExtensionHostConnection] New connection established.
+2022-12-28 11:11:37.414 [info] [127.0.0.1][72765c29][ExtensionHostConnection] <1493> Launched Extension Host Process.
+2022-12-28 12:10:57.375 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2022-12-28 12:25:44.094 [info] [127.0.0.1][6c4454f9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-28 12:25:45.134 [info] [127.0.0.1][72765c29][ExtensionHostConnection] <1493> Extension Host Process exited with code: 0, signal: null.
+2022-12-28 12:25:45.136 [info] Last EH closed, waiting before shutting down
+2022-12-28 12:30:45.163 [info] Last EH closed, shutting down

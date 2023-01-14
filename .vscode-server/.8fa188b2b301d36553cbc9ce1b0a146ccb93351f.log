@@ -1,0 +1,206 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:41303 (IPv4)
+Extension host agent listening on 41303
+
+[15:05:22] Extension host agent started.
+[15:05:22] [127.0.0.1][dc07541e][ManagementConnection] New connection established.
+[15:05:23] [127.0.0.1][66f76331][ExtensionHostConnection] New connection established.
+[15:05:23] [127.0.0.1][66f76331][ExtensionHostConnection] <1294> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[15:05:42] [127.0.0.1][dc07541e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:05:44] Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'mobile.events.data.microsoft.com'
+}
+[15:05:48] [127.0.0.1][690fc137][ManagementConnection] New connection established.
+[15:05:48] [127.0.0.1][4bdc4e3d][ExtensionHostConnection] New connection established.
+[15:05:48] [127.0.0.1][4bdc4e3d][ExtensionHostConnection] <1525> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[15:05:53] [127.0.0.1][66f76331][ExtensionHostConnection] <1294> Extension Host Process exited with code: 0, signal: null.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:05:55] Error [CodeExpectedError]: Could not find pty on pty host
+    at d._throwIfNoPty (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:05:55] Error [CodeExpectedError]: Could not find pty on pty host
+    at d._throwIfNoPty (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/vadim2/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:11:48] No ptyHost heartbeat after 6 seconds
+[15:12:04] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,14 @@
+2022-12-28 13:37:37.631 [info] Extension host agent started.
+2022-12-28 13:37:38.007 [info] [127.0.0.1][a10d472c][ManagementConnection] New connection established.
+2022-12-28 13:37:38.015 [info] [127.0.0.1][a38940a5][ExtensionHostConnection] New connection established.
+2022-12-28 13:37:38.353 [info] [127.0.0.1][a38940a5][ExtensionHostConnection] <7892> Launched Extension Host Process.
+2022-12-28 14:51:53.290 [info] [127.0.0.1][a10d472c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-28 14:51:53.536 [info] [127.0.0.1][a38940a5][ExtensionHostConnection] <7892> Extension Host Process exited with code: 0, signal: null.
+2022-12-28 14:51:53.537 [info] Last EH closed, waiting before shutting down
+2022-12-28 14:52:22.536 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-28 14:52:22.544 [info] Cancelling previous shutdown timeout
+2022-12-28 14:52:22.898 [info] [127.0.0.1][91fafa8e][ManagementConnection] New connection established.
+2022-12-28 14:52:22.914 [info] [127.0.0.1][efa93107][ExtensionHostConnection] New connection established.
+2022-12-28 14:52:23.096 [info] [127.0.0.1][efa93107][ExtensionHostConnection] <18525> Launched Extension Host Process.
+2022-12-28 14:57:22.552 [info] New EH opened, aborting shutdown
+2022-12-28 17:32:55.007 [warning] No ptyHost heartbeat after 6 seconds

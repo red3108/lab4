@@ -1,0 +1,10 @@
+2023-01-11 10:42:51.575 [info] Extension host with pid 12187 started
+2023-01-11 10:42:51.619 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-11 10:42:51.644 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-11 10:42:51.645 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-11 10:42:51.774 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 10:42:51.775 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 10:42:51.775 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 10:42:51.775 [info] Eager extensions activated
+2023-01-11 10:42:59.048 [info] Extension host terminating: received terminate message from renderer
+2023-01-11 10:42:59.056 [info] Extension host with pid 12187 exiting with code 0

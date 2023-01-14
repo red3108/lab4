@@ -1,0 +1,32 @@
+2022-12-26 11:36:50.021 [info] Log level: Info
+2022-12-26 11:36:50.022 [info] Validating found git in: "git"
+2022-12-26 11:36:50.022 [info] Using git "2.31.1" from "git"
+2022-12-26 11:36:50.022 [info] > git rev-parse --show-toplevel [238ms]
+2022-12-26 11:36:50.022 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2022-12-26 11:36:50.022 [info] Open repository: /home/ChudakovDA
+2022-12-26 11:36:50.022 [info] > git rev-parse --show-toplevel [26ms]
+2022-12-26 11:36:50.022 [info] > git config --get commit.template [24ms]
+2022-12-26 11:36:50.022 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-26 11:36:50.022 [info] > git rev-parse --show-toplevel [37ms]
+2022-12-26 11:36:50.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [68ms]
+2022-12-26 11:36:50.022 [info] > git rev-parse --show-toplevel [96ms]
+2022-12-26 11:36:50.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2022-12-26 11:36:50.023 [info] > git rev-parse --show-toplevel [16ms]
+2022-12-26 11:36:50.023 [info] > git rev-parse --show-toplevel [126ms]
+2022-12-26 11:36:50.023 [info] > git rev-parse --show-toplevel [11ms]
+2022-12-26 11:36:50.023 [info] > git status -z -uall [232ms]
+2022-12-26 11:36:50.023 [info] > git rev-parse --git-dir --git-common-dir [238ms]
+2022-12-26 11:36:50.023 [info] Open repository: /home/ChudakovDA/lab4
+2022-12-26 11:36:50.023 [info] > git config --get commit.template [1383ms]
+2022-12-26 11:36:50.023 [info] > git config --get commit.template [176ms]
+2022-12-26 11:36:50.023 [info] > git check-ignore -v -z --stdin [72ms]
+2022-12-26 11:36:50.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2022-12-26 11:36:50.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [113ms]
+2022-12-26 11:36:50.023 [info] > git status -z -uall [11ms]
+2022-12-26 11:36:50.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [54ms]
+2022-12-26 11:36:50.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2022-12-26 11:36:50.023 [info] > git status -z -uall [105ms]
+2022-12-26 11:36:51.294 [info] > git check-ignore -v -z --stdin [133ms]
+2022-12-26 11:36:51.295 [info] > git check-ignore -v -z --stdin [61ms]
+2022-12-26 11:36:51.829 [info] > git check-ignore -v -z --stdin [15ms]
+2022-12-26 11:36:51.830 [info] > git check-ignore -v -z --stdin [8ms]
